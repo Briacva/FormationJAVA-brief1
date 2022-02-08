@@ -1,0 +1,66 @@
+/* navbar */
+
+#row1{
+    margin: 0;
+    padding: 0;
+    background-color: #003638;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-evenly;
+background-color: #003638;
+}
+
+#acc, #univers, #ctc, .boutton, #roue{
+    color: #00797d;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;  
+}
+
+label{
+    color: #00797d;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;
+      
+}
+
+/* Carousel */
+
+#carouselConteneur{
+    margin: 0 auto;
+}
+.carousel-item {
+    height: 100%; 
+    max-height: 60vh;
+}
+
+.carousel-item img{
+    width: 100%;
+    max-height: 60vh;
+    margin: 0 auto;
+}
+
+/* Partenaires */
+
+h2{
+    color: #00797d;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logoPartenaires{
+    text-align: center;
+}
+
+.logo-partners{
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 100%;
+    height: auto; 
+}
+

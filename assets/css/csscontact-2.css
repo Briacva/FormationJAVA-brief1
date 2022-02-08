@@ -1,0 +1,123 @@
+/* navbar */
+
+#row1{
+    margin: 0;
+    padding: 0;
+    background-color: #FBF8F1;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-evenly;
+background-color: #FBF8F1;
+}
+
+#acc, #univers, #ctc, .boutton, #roue{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;  
+}
+
+label{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;
+      
+}
+
+/* body */
+
+body{
+background-color: #FBF8F1 ;
+}
+
+/* formulaire */
+
+h1{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+#vagueForm{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+fieldset{
+    background-color: #ffffff;
+    padding-top: 2em;
+    margin-top: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #54BAB9;
+    text-align: center;
+}
+
+
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+.boite{
+    background-color: #FBF8F1;
+    border-radius: 2em;
+    border: 0;
+    width: 20%;
+}
+
+.textBox{
+    background-color: #FBF8F1;
+    border: 0;
+    padding-bottom: 10em;
+    width: 50%;
+}
+
+
+#envoyer{
+    float: right;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: #54BAB9;
+    border-color: #54BAB9;
+    border-radius: 2em;
+}
+
+input[type="submit"]#envoyer:hover {
+    background-color: #81C3C9;
+}
+
+/* popup */
+
+.popupText{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#logoSalut{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-bottom: 2em;
+}

@@ -116,7 +116,7 @@ function updateFirst(event) {
   var p = document.querySelector("p");
   var li = document.querySelector("li");
 
-  if (p || li) {
+if (p || li) {
     p.style.color = event.target.value;
     li.style.color = event.target.value;
   }
